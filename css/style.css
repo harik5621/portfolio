@@ -9,20 +9,53 @@ a{
 body{
     line-height: 1.5px;
     font-family: "poppins" ,sans-serif;
+    background-color: rgb(13, 13, 13);
 }
 :root{
     --head-color: rgb(250, 8, 97);
     --sub-head-color: rgb(15, 35, 183);
 }
-.head{
-    color: var(--head-color);
+.section-head {
     text-align: center;
+    margin: 30px 0;
 }
+
+.section-head .head {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2ab3cdcc; /* Or your desired color */
+    border-bottom: 2px solid #007bff; /* Optional for a bottom border */
+    display: inline-block; /* Center the border with the text */
+    padding-bottom: 10px; /* Space between text and border */
+}
+
+.sub-head-1 {
+    text-align: center;
+    margin: 30px 0;
+}
+.sub-head-1 .shead{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #cd2a76cc; 
+    border-bottom: 2px solid #00ff95; 
+    display: inline-block; 
+    padding-bottom: 10px; 
+}
+
+.h4-tit{
+    color: white;
+}
+.para-cnt{
+    color: #82c695;
+}
+
+
+
 section a{
     text-decoration: none;
 }
 .style1{
-    background: darkslateblue;
+    background-color: #fff;
 }
 /* navagiation section start */
 #navbar{
@@ -52,7 +85,7 @@ section a{
 /* home section start */
 
 .bg-1 {
-    background-color: #1abc9c;
+    background-color: #991abc5c;;
     color: #ffffff;
     padding: 2rem 1rem; /* Add padding for spacing */
   }
@@ -80,7 +113,9 @@ section a{
       margin-right: 2rem;
     }
   }
-
+.typed{
+    color: red;
+}
 
 /* home section end */
 /* About section start */
@@ -107,7 +142,7 @@ section a{
 /* skills section start */
 .skill-1{
     padding: 10px 0;
-    background-color: skyblue;
+    background-color: #b887eb;
     border-radius: 8px;
     box-shadow: 2px 2px 19px 1px violet;
     position: relative;
@@ -128,15 +163,15 @@ section a{
 }
 /* js percent */
 .skill_javaScript {
-    width: 69%;
+    width: 90%;
 }
 /* html percent */
 .skill_html {
-    width: 69%;
+    width: 90%;
 }
 /* css percent */
 .skill_css {
-    width: 69%;
+    width: 90%;
 }
 /* python percent */
 .skill_python {
